@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto Backup rules for Android 11 and lower. See https://developer.android.com/guide/topics/data/autobackup -->
+<full-backup-content>
+    <!-- Profile photos are device-local for now; keep them out of cloud backups. -->
+    <exclude domain="file" path="profile_photos/" />
+        <!-- Nutrition profiles are local-only until cloud sync exists. -->
+        <exclude domain="file" path="datastore/nutrition_profiles.preferences_pb" />
+</full-backup-content>

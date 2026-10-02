@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name" translatable="false">NutriTrack</string>
+
+    <!-- Home screen -->
+    <string name="home_label_calories">Calories</string>
+    <string name="home_label_protein">Protein</string>
+    <string name="home_label_water">Water</string>
+    <string name="home_value_grams">%1$d / %2$d g</string>
+    <string name="home_value_ml">%1$d / %2$d ml</string>
+    <string name="home_vitamins">Vitamins</string>
+    <string name="home_minerals">Minerals</string>
+    <string name="home_account_button">Account</string>
+    <string name="home_today">Today</string>
+    <string name="home_calories_of_goal">of %1$d kcal</string>
+    <string name="home_tracked_count">Tracked: %1$d</string>
+    <string name="home_todays_meals">Today\'s meals</string>
+    <string name="home_meals_empty_title">No meals added yet</string>
+    <string name="home_meals_empty_hint">Tap + to add your first meal.</string>
+
+    <!-- Bottom navigation and placeholder screens -->
+    <string name="nav_diary">Diary</string>
+    <string name="nav_history">History</string>
+    <string name="nav_add_food">Add Food</string>
+    <string name="add_food_placeholder">Food search is coming soon.</string>
+    <string name="history_placeholder">Your past days will appear here.</string>
+    <string name="action_close">Close</string>
+
+    <!-- Welcome / authentication -->
+    <string name="welcome_subtitle">Understand your daily nutrition</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_sign_in">Sign In</string>
+    <string name="auth_name">Name</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_confirm_password">Confirm password</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_have_account_sign_in">Already have an account? Sign In</string>
+    <string name="auth_no_account_create">Don\'t have an account? Create Account</string>
+
+    <string name="auth_error_name_required">Please enter your name.</string>
+    <string name="auth_error_email_required">Please enter your email.</string>
+    <string name="auth_error_email_invalid">Please enter a valid email address.</string>
+    <string name="auth_error_password_required">Please enter a password.</string>
+    <string name="auth_error_confirm_password_required">Please confirm your password.</string>
+    <string name="auth_error_passwords_do_not_match">Passwords don\'t match.</string>
+    <string name="auth_error_invalid_credentials">Incorrect email or password.</string>
+    <string name="auth_error_email_in_use">An account with this email already exists. Try signing in instead.</string>
+    <string name="auth_error_weak_password">This password is too weak. Please use at least 6 characters.</string>
+    <string name="auth_error_account_disabled">This account has been disabled.</string>
+    <string name="auth_error_network">Couldn\'t connect. Please check your internet connection and try again.</string>
+    <string name="auth_error_too_many_attempts">Too many attempts. Please wait a moment and try again.</string>
+    <string name="auth_error_unknown">Something went wrong. Please try again.</string>
+
+    <!-- Account screen -->
+    <string name="account_title">Account</string>
+    <string name="account_no_name">No name set</string>
+    <string name="account_edit_account">Edit Account</string>
+    <string name="account_edit_nutrition_profile">Edit Nutrition Profile</string>
+    <string name="account_sign_out">Sign Out</string>
+
+    <!-- Verify Email screen -->
+    <string name="verify_email_title">Verify your email</string>
+    <string name="verify_email_sent_to">We sent a verification link to:</string>
+    <string name="verify_email_instructions">Open the link in that email, then come back here. If you don\'t see it, check your spam folder.</string>
+    <string name="verify_email_check">I\'ve Verified My Email</string>
+    <string name="verify_email_resend">Resend Email</string>
+    <string name="verify_email_resend_in">Resend in %1$d s</string>
+    <string name="verify_email_not_verified_yet">Your email isn\'t verified yet. Open the link in the email we sent, then try again.</string>
+    <string name="verify_email_sent_confirmation">Verification email sent. Check your inbox.</string>
+    <string name="account_email_verified">Verified</string>
+    <string name="account_email_not_verified">Not verified</string>
+
+    <!-- Edit Account screen -->
+    <string name="edit_account_title">Edit Account</string>
+    <string name="edit_account_display_name">Display name</string>
+    <string name="edit_account_email_read_only">Email can\'t be changed yet.</string>
+    <string name="edit_account_change_photo">Change Photo</string>
+    <string name="edit_account_remove_photo">Remove Photo</string>
+    <string name="edit_account_photo_local_note">Your photo is saved only on this device for now.</string>
+    <string name="edit_account_photo_failed">Couldn\'t save the photo. Please try another image.</string>
+
+    <!-- Language -->
+    <string name="language_title">Language</string>
+    <!-- Each language is shown in its own language, so these are not translated. -->
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_russian" translatable="false">Русский</string>
+
+    <!-- Profile screen -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_setup_title">Set Up Your Profile</string>
+    <string name="profile_back">Back</string>
+    <string name="profile_intro">We use this information to estimate your daily nutrition needs.</string>
+    <string name="profile_dob">Date of birth</string>
+    <string name="profile_dob_placeholder">Select your date of birth</string>
+    <string name="profile_dob_select">Select date of birth</string>
+    <plurals name="profile_age_years">
+        <item quantity="one">Age: %1$d year</item>
+        <item quantity="other">Age: %1$d years</item>
+    </plurals>
+    <string name="profile_sex_label">Sex for nutrition calculations</string>
+    <string name="profile_weight">Weight</string>
+    <string name="profile_height">Height</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_cm">cm</string>
+    <string name="profile_activity_label">Activity level</string>
+    <string name="profile_female_options">Additional options</string>
+    <string name="profile_pregnant">Pregnant</string>
+    <string name="profile_breastfeeding">Breastfeeding</string>
+    <string name="profile_save">Save Profile</string>
+    <string name="profile_save_changes">Save Changes</string>
+
+    <string name="sex_female">Female</string>
+    <string name="sex_male">Male</string>
+
+    <string name="activity_inactive">Inactive</string>
+    <string name="activity_inactive_description">Mostly daily living activities, with little additional physical activity.</string>
+    <string name="activity_low_active">Low Active</string>
+    <string name="activity_low_active_description">Daily living activities plus some additional walking or other physical activity.</string>
+    <string name="activity_active">Active</string>
+    <string name="activity_active_description">Daily living activities plus regular moderate physical activity.</string>
+    <string name="activity_very_active">Very Active</string>
+    <string name="activity_very_active_description">Daily living activities plus a high amount of moderate or vigorous physical activity.</string>
+
+    <!-- Profile validation -->
+    <string name="error_dob_required">Please select your date of birth.</string>
+    <string name="error_dob_future">Date of birth can\'t be in the future.</string>
+    <string name="error_dob_out_of_range">Date of birth must give an age from 1 to 120 years.</string>
+    <string name="error_sex_required">Please select an option.</string>
+    <string name="error_weight_required">Please enter your weight.</string>
+    <string name="error_weight_invalid">Weight must be a number greater than 0.</string>
+    <string name="error_height_required">Please enter your height.</string>
+    <string name="error_height_invalid">Height must be a number greater than 0.</string>
+    <string name="error_activity_required">Please select your activity level.</string>
+</resources>

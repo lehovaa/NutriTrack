@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppCompat parent is required for AppCompatActivity, which provides per-app locales below API 33. -->
+    <style name="Theme.NutriTrack" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

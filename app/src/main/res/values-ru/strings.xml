@@ -1,0 +1,132 @@
+<resources>
+    <!-- Home screen -->
+    <string name="home_label_calories">Калории</string>
+    <string name="home_label_protein">Белок</string>
+    <string name="home_label_water">Вода</string>
+    <string name="home_value_grams">%1$d / %2$d г</string>
+    <string name="home_value_ml">%1$d / %2$d мл</string>
+    <string name="home_vitamins">Витамины</string>
+    <string name="home_minerals">Минералы</string>
+    <string name="home_account_button">Аккаунт</string>
+    <string name="home_today">Сегодня</string>
+    <string name="home_calories_of_goal">из %1$d ккал</string>
+    <string name="home_tracked_count">Отслеживается: %1$d</string>
+    <string name="home_todays_meals">Приёмы пищи за сегодня</string>
+    <string name="home_meals_empty_title">Пока нет приёмов пищи</string>
+    <string name="home_meals_empty_hint">Нажмите «+», чтобы добавить первый приём пищи.</string>
+
+    <!-- Bottom navigation and placeholder screens -->
+    <string name="nav_diary">Дневник</string>
+    <string name="nav_history">История</string>
+    <string name="nav_add_food">Добавить еду</string>
+    <string name="add_food_placeholder">Поиск продуктов скоро появится.</string>
+    <string name="history_placeholder">Здесь появятся ваши прошлые дни.</string>
+    <string name="action_close">Закрыть</string>
+
+    <!-- Welcome / authentication -->
+    <string name="welcome_subtitle">Разберитесь в своём ежедневном питании</string>
+    <string name="auth_create_account">Создать аккаунт</string>
+    <string name="auth_sign_in">Войти</string>
+    <string name="auth_name">Имя</string>
+    <string name="auth_email">Эл. почта</string>
+    <string name="auth_password">Пароль</string>
+    <string name="auth_confirm_password">Подтвердите пароль</string>
+    <string name="auth_show_password">Показать пароль</string>
+    <string name="auth_hide_password">Скрыть пароль</string>
+    <string name="auth_have_account_sign_in">Уже есть аккаунт? Войти</string>
+    <string name="auth_no_account_create">Нет аккаунта? Создать аккаунт</string>
+
+    <string name="auth_error_name_required">Введите имя.</string>
+    <string name="auth_error_email_required">Введите адрес эл. почты.</string>
+    <string name="auth_error_email_invalid">Введите корректный адрес эл. почты.</string>
+    <string name="auth_error_password_required">Введите пароль.</string>
+    <string name="auth_error_confirm_password_required">Подтвердите пароль.</string>
+    <string name="auth_error_passwords_do_not_match">Пароли не совпадают.</string>
+    <string name="auth_error_invalid_credentials">Неверный адрес эл. почты или пароль.</string>
+    <string name="auth_error_email_in_use">Аккаунт с этим адресом уже существует. Попробуйте войти.</string>
+    <string name="auth_error_weak_password">Слишком простой пароль. Используйте не менее 6 символов.</string>
+    <string name="auth_error_account_disabled">Этот аккаунт отключён.</string>
+    <string name="auth_error_network">Нет подключения. Проверьте интернет и попробуйте ещё раз.</string>
+    <string name="auth_error_too_many_attempts">Слишком много попыток. Подождите немного и попробуйте снова.</string>
+    <string name="auth_error_unknown">Что-то пошло не так. Попробуйте ещё раз.</string>
+
+    <!-- Account screen -->
+    <string name="account_title">Аккаунт</string>
+    <string name="account_no_name">Имя не указано</string>
+    <string name="account_edit_account">Изменить аккаунт</string>
+    <string name="account_edit_nutrition_profile">Изменить профиль питания</string>
+    <string name="account_sign_out">Выйти</string>
+
+    <!-- Verify Email screen -->
+    <string name="verify_email_title">Подтвердите адрес эл. почты</string>
+    <string name="verify_email_sent_to">Мы отправили ссылку для подтверждения на адрес:</string>
+    <string name="verify_email_instructions">Откройте ссылку из письма и вернитесь в приложение. Если письма нет, проверьте папку «Спам».</string>
+    <string name="verify_email_check">Я подтвердил(а) адрес</string>
+    <string name="verify_email_resend">Отправить письмо ещё раз</string>
+    <string name="verify_email_resend_in">Повторная отправка через %1$d с</string>
+    <string name="verify_email_not_verified_yet">Адрес пока не подтверждён. Откройте ссылку из нашего письма и попробуйте снова.</string>
+    <string name="verify_email_sent_confirmation">Письмо отправлено. Проверьте почту.</string>
+    <string name="account_email_verified">Подтверждён</string>
+    <string name="account_email_not_verified">Не подтверждён</string>
+
+    <!-- Edit Account screen -->
+    <string name="edit_account_title">Изменить аккаунт</string>
+    <string name="edit_account_display_name">Отображаемое имя</string>
+    <string name="edit_account_email_read_only">Адрес эл. почты пока нельзя изменить.</string>
+    <string name="edit_account_change_photo">Изменить фото</string>
+    <string name="edit_account_remove_photo">Удалить фото</string>
+    <string name="edit_account_photo_local_note">Пока фото хранится только на этом устройстве.</string>
+    <string name="edit_account_photo_failed">Не удалось сохранить фото. Попробуйте другое изображение.</string>
+
+    <!-- Language -->
+    <string name="language_title">Язык</string>
+
+    <!-- Profile screen -->
+    <string name="profile_title">Профиль</string>
+    <string name="profile_setup_title">Настройка профиля</string>
+    <string name="profile_back">Назад</string>
+    <string name="profile_intro">Эти данные помогают оценить вашу суточную потребность в питательных веществах.</string>
+    <string name="profile_dob">Дата рождения</string>
+    <string name="profile_dob_placeholder">Выберите дату рождения</string>
+    <string name="profile_dob_select">Выбрать дату рождения</string>
+    <plurals name="profile_age_years">
+        <item quantity="one">Возраст: %1$d год</item>
+        <item quantity="few">Возраст: %1$d года</item>
+        <item quantity="many">Возраст: %1$d лет</item>
+        <item quantity="other">Возраст: %1$d года</item>
+    </plurals>
+    <string name="profile_sex_label">Пол для расчёта питания</string>
+    <string name="profile_weight">Вес</string>
+    <string name="profile_height">Рост</string>
+    <string name="unit_kg">кг</string>
+    <string name="unit_cm">см</string>
+    <string name="profile_activity_label">Уровень активности</string>
+    <string name="profile_female_options">Дополнительно</string>
+    <string name="profile_pregnant">Беременность</string>
+    <string name="profile_breastfeeding">Грудное вскармливание</string>
+    <string name="profile_save">Сохранить профиль</string>
+    <string name="profile_save_changes">Сохранить изменения</string>
+
+    <string name="sex_female">Женский</string>
+    <string name="sex_male">Мужской</string>
+
+    <string name="activity_inactive">Малоподвижный</string>
+    <string name="activity_inactive_description">В основном обычные повседневные дела, почти без дополнительной физической активности.</string>
+    <string name="activity_low_active">Низкая активность</string>
+    <string name="activity_low_active_description">Повседневные дела плюс немного дополнительной ходьбы или другой физической активности.</string>
+    <string name="activity_active">Умеренная активность</string>
+    <string name="activity_active_description">Повседневные дела плюс регулярная умеренная физическая активность.</string>
+    <string name="activity_very_active">Высокая активность</string>
+    <string name="activity_very_active_description">Повседневные дела плюс значительный объём умеренной или интенсивной физической активности.</string>
+
+    <!-- Profile validation -->
+    <string name="error_dob_required">Выберите дату рождения.</string>
+    <string name="error_dob_future">Дата рождения не может быть в будущем.</string>
+    <string name="error_dob_out_of_range">Возраст по дате рождения должен быть от 1 до 120 лет.</string>
+    <string name="error_sex_required">Выберите вариант.</string>
+    <string name="error_weight_required">Введите вес.</string>
+    <string name="error_weight_invalid">Вес должен быть числом больше 0.</string>
+    <string name="error_height_required">Введите рост.</string>
+    <string name="error_height_invalid">Рост должен быть числом больше 0.</string>
+    <string name="error_activity_required">Выберите уровень активности.</string>
+</resources>
